@@ -2,10 +2,13 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
-      <h1>Header</h1>
+    <div className='header'>
+     
       <ul>
-          <li>Home</li>
+          <li className='items'>Home</li>
+          <li className='items'>About</li>
+          <li className='items'>Portafolio</li>
+          <li className='items'>Contact</li>
           
       </ul>
     </div>
